@@ -1,0 +1,37 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>PoolC Chatting</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    body {
+      padding: 60px 0;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+  </style>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>PoolC 채팅</h1>
+    <form method="post">
+      <div class="form-group">
+        <label for="server">Server address</label>
+        <input type="text" class="form-control" id="server" name="server" placeholder="접속할 서버 주소">
+      </div>
+      <div class="form-group">
+        <label for="nickname">Nickname</label>
+        <input type="text" class="form-control" id="nickname" name="nickname" placeholder="채팅에 사용할 닉네임">
+      </div>
+      <button type="submit" class="btn btn-primary">접속하기</button>
+    </form>
+  </div>
+</body>
+
+</html>

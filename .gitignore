@@ -1,0 +1,14 @@
+# Compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments, pyenv
+env/
+.python-version
+
+# Unit test, coverage reports
+.coverage
+
+# Development environments
+.idea/
+.vscode/
