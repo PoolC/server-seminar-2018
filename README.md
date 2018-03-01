@@ -1,4 +1,4 @@
-# Flask Seed Application
+# Server Seminar 2018
 ## Prerequisites
 * Python 3.6+
 * virutalenv
